@@ -52,7 +52,7 @@ body {
 
 @font-face {
     font-family: 'lexend';
-    src: url('Lexend-Bold.woff2') format('truetype');
+    src: url('Lexend-Bold.woff2') format('woff2');
     font-style: normal;
     font-weight: normal;
 }
