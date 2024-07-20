@@ -49,3 +49,14 @@ body {
     width: 24px;
     height: 24px;
 }
+
+@font-face {
+    font-family: 'lexend';
+    src: url('assets/fonts/Lexend-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+.main {
+    font-family: 'lexend';
+}
