@@ -78,8 +78,25 @@ body {
 
 .main {
     font-family: 'lexend';
+    width: calc(100% - 40px);
+    overflow-x: hidden;
+    box-sizing: border-box;
+    margin: 10px auto;
+}
+
+img {
+    width: calc(100% - 50px);
+    overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 div {
     padding: 50px;
+    padding-right: 0px;
+}
+
+p {
+    margin: auto;
+    font-size: 20px;
+    box-sizing: border-box;
 }
