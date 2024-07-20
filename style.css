@@ -51,10 +51,12 @@ body {
 }
 
 @font-face {
-    font-family: 'lexend';
-    src: url('Lexend-Bold.woff2') format('woff2');
+    font-family: 'lexend-bold';
+    src:url('assets/fonts/Lexend-Bold.woff2') format('woff2'),
+        url('assets/fonts/Lexend-Bold.woff') format('woff'),
+        url('assets/fonts/Lexend-Bold.ttf') format('truetype');
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .main {
