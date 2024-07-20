@@ -88,6 +88,7 @@ img {
     width: calc(100% - 50px);
     overflow-x: hidden;
     box-sizing: border-box;
+    flex-shrink: 0;
 }
 
 div {
@@ -96,7 +97,48 @@ div {
 }
 
 p {
-    margin: auto;
+    display: flex;
     font-size: 20px;
     box-sizing: border-box;
+    text-indent: 40px;
+}
+
+.index_showcase {
+    display: flex;
+}
+
+details > summary {
+    list-style: none;
+    font-size: 40px;
+    text-decoration: underline;
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+    outline: none;
+    color: royalblue
+}
+
+details {
+    font-family: 'lexend';
+    font-size: 20px;
+    width: 800px;
+}
+
+details > summary::after {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    content: '⛛';
+    text-indent: 200px;
+}
+
+details > summary:hover::after {
+    content: '▼';
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+h1 {
+    color: royalblue
 }
