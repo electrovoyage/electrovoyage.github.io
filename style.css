@@ -55,6 +55,7 @@ body {
     src:url('assets/fonts/Lexend-Bold.woff2') format('woff2'),
         url('assets/fonts/Lexend-Bold.woff') format('woff'),
         url('assets/fonts/Lexend-Bold.ttf') format('truetype'),
+        /*GitHub Pages fixes*/
         url('Lexend-Bold.woff2') format('woff2'),
         url('Lexend-Bold.woff') format('woff'),
         url('Lexend-Bold.ttf') format('truetype');
@@ -62,6 +63,23 @@ body {
     font-weight: bold;
 }
 
+@font-face {
+    font-family: 'lexend';
+    src:url('assets/fonts/Lexend-Regular.woff2') format('woff2'),
+        url('assets/fonts/Lexend-Regular.woff') format('woff'),
+        url('assets/fonts/Lexend-Regular.ttf') format('truetype'),
+        /*GitHub Pages fixes*/
+        url('Lexend-Regular.woff2') format('woff2'),
+        url('Lexend-Regular.woff') format('woff'),
+        url('Lexend-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
 .main {
     font-family: 'lexend';
+}
+
+div {
+    padding: 50px;
 }
