@@ -54,7 +54,10 @@ body {
     font-family: 'lexend-bold';
     src:url('assets/fonts/Lexend-Bold.woff2') format('woff2'),
         url('assets/fonts/Lexend-Bold.woff') format('woff'),
-        url('assets/fonts/Lexend-Bold.ttf') format('truetype');
+        url('assets/fonts/Lexend-Bold.ttf') format('truetype'),
+        url('Lexend-Bold.woff2') format('woff2'),
+        url('Lexend-Bold.woff') format('woff'),
+        url('Lexend-Bold.ttf') format('truetype');
     font-style: normal;
     font-weight: bold;
 }
