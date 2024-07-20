@@ -1,0 +1,51 @@
+.button {
+    display: block; /* Make buttons stack vertically */
+    background-color: #4CAF50; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    padding: 10px; /* Padding inside buttons */
+    /*left: 20px;*/
+    position: relative;
+
+    cursor: pointer; /* Change cursor on hover */
+    text-align: left; /* Center text */
+    width: 100%;
+    text-indent: 20px;
+    transition: background-color 0.3s ease-in-out; /* Smooth transition */
+    transition: color 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #f1f1f1; /* Change background on hover */
+    color: #4CAF50;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+.top-bar a {
+    color: white;
+    text-decoration: none;
+    padding-right: 15px;
+}
+.top-bar a:not(:first-child)::before {
+    font-weight: initial;
+    content: '|';
+    padding-right: 15px;
+    color: white;
+}
+
+.image {
+    width: 20px; /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+    margin-right: 15px; /* Space between link and image */
+    width: 24px;
+    height: 24px;
+}
