@@ -51,7 +51,7 @@ body {
 }
 
 @font-face {
-    font-family: 'lexend-bold';
+    font-family: 'lexend';
     src:url('assets/fonts/Lexend-Bold.woff2') format('woff2'),
         url('assets/fonts/Lexend-Bold.woff') format('woff'),
         url('assets/fonts/Lexend-Bold.ttf') format('truetype'),
@@ -115,7 +115,9 @@ details > summary {
     position: relative;
     user-select: none;
     outline: none;
-    color: royalblue
+    font-weight: bold;
+    color: royalblue;
+    padding-bottom: 20px;
 }
 
 details {
