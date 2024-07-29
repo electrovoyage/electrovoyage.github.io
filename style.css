@@ -146,3 +146,8 @@ h1 {
 .link {
     color:#6495ed
 }
+
+.index_showcase_image {
+    aspect-ratio: fixed 16/9;
+    height: 360px;
+}
