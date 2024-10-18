@@ -52,9 +52,9 @@ body {
 
 @font-face {
     font-family: 'lexend';
-    src:url('assets/fonts/Lexend-Bold.woff2') format('woff2'),
-        url('assets/fonts/Lexend-Bold.woff') format('woff'),
-        url('assets/fonts/Lexend-Bold.ttf') format('truetype'),
+    src:url('https://electrovoyage.github.io/assets/fonts/Lexend-Bold.woff2') format('woff2'),
+        url('https://electrovoyage.github.io/assets/fonts/Lexend-Bold.woff') format('woff'),
+        url('https://electrovoyage.github.io/assets/fonts/Lexend-Bold.ttf') format('truetype'),
         /*GitHub Pages fixes*/
         url('Lexend-Bold.woff2') format('woff2'),
         url('Lexend-Bold.woff') format('woff'),
@@ -65,9 +65,9 @@ body {
 
 @font-face {
     font-family: 'lexend';
-    src:url('assets/fonts/Lexend-Regular.woff2') format('woff2'),
-        url('assets/fonts/Lexend-Regular.woff') format('woff'),
-        url('assets/fonts/Lexend-Regular.ttf') format('truetype'),
+    src:url('https://electrovoyage.github.io/assets/fonts/Lexend-Regular.woff2') format('woff2'),
+        url('https://electrovoyage.github.io/assets/fonts/Lexend-Regular.woff') format('woff'),
+        url('https://electrovoyage.github.io/assets/fonts/Lexend-Regular.ttf') format('truetype'),
         /*GitHub Pages fixes*/
         url('Lexend-Regular.woff2') format('woff2'),
         url('Lexend-Regular.woff') format('woff'),
