@@ -110,7 +110,6 @@ p {
 details > summary {
     list-style: none;
     font-size: 40px;
-    text-decoration: underline;
     cursor: pointer;
     position: relative;
     user-select: none;
@@ -120,6 +119,12 @@ details > summary {
     padding-bottom: 20px;
 }
 
+details > summary::before {
+    content: attr(data-content);
+    color: royalblue;
+    text-decoration: underline;
+}
+
 details {
     font-family: 'lexend';
     font-size: 20px;
@@ -127,7 +132,7 @@ details {
 }
 
 details > summary::after {
-    text-decoration: none;
+    text-decoration-line:none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     content: '⛛';
     text-indent: 200px;
