@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'lexend';
+    src:url('https://electrovoyage.github.io/cdn/fonts/Lexend-Bold.woff2') format('woff2'),
+        url('https://electrovoyage.github.io/cdn/fonts/Lexend-Bold.woff') format('woff'),
+        url('https://electrovoyage.github.io/cdn/fonts/Lexend-Bold.ttf') format('truetype'),
+        /*GitHub Pages fixes*/
+        url('Lexend-Bold.woff2') format('woff2'),
+        url('Lexend-Bold.woff') format('woff'),
+        url('Lexend-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'lexend';
+    src:url('https://electrovoyage.github.io/cdn/fonts/Lexend-Regular.woff2') format('woff2'),
+        url('https://electrovoyage.github.io/cdn/fonts/Lexend-Regular.woff') format('woff'),
+        url('https://electrovoyage.github.io/cdn/fonts/Lexend-Regular.ttf') format('truetype'),
+        /*GitHub Pages fixes*/
+        url('Lexend-Regular.woff2') format('woff2'),
+        url('Lexend-Regular.woff') format('woff'),
+        url('Lexend-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'ConsolasFont';
+    src: url('https://electrovoyage.github.io/cdn/fonts/consola.ttf') format('truetype'),
+         url('https://electrovoyage.github.io/cdn/fonts/consola.woff') format('woff'),
+         url('https://electrovoyage.github.io/cdn/fonts/consola.otf') format('opentype'),
+         /*GitHub Pages fixes*/
+         url('consola.woff') format('woff'),
+         url('consola.otf') format('opentype'),
+         url('consola.ttf') format('truetype');
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+    font-family: 'lexend';
+}
+
+h1 {
+    font-family: 'lexend';
+    font-weight: bold;
+}
