@@ -19,8 +19,8 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <div class= "w3-sidebar w3-bar-block" style="width: 15%; background-color: #535353">
-            <a href="#" class="w3-bar-item w3-button" style="color: white">hello</a>
-            <a href="#" class="w3-bar-item w3-button" style="color: white">hello</a>
+            <a href="#" class="w3-bar-item w3-button" style="color: white">Introduction</a>
+            <a href="#types" class="w3-bar-item w3-button" style="color: white">Asset pack types</a>
             <a href="#" class="w3-bar-item w3-button" style="color: white">hello</a>
         </div>
 
@@ -30,13 +30,34 @@
                 <div style="display: flex; justify-content: center;">
                     <h1>electrovoyage_asset_unpacker documentation</h1>
                 </div>
-                <p style="justify-content: left; text-align: left; background-color: rgb(226, 226, 226); font-family: ConsolasFont; padding: 10px" class="w3-round-large">
+                <!--p id="code" style="justify-content: left; text-align: left; background-color: rgb(226, 226, 226); font-family: ConsolasFont; padding: 10px" class="w3-round-large">
                     from tkinter import *
                     <br><br>
                     win = Tk()
                 </p>
-                <p>
+                <p id="after" class="warning w3-panel w3-border-red w3-leftbar w3-pale-red" style="padding: 10px">
                     No longer Consolas!
+                </p-->
+                <p>
+                    Welcome to the docs of electrovoyage_asset_unpacker! electrovoyage_asset_unpacker is a
+                    script for accessing files in packed asset bundles made by electrovoyage.<br>
+                    The purpose of this is to simplify creating programs in Python, since the more files
+                    you need to pack into the executable, the more command-line arguments need to be passed into
+                    PyInstaller.
+                </p>
+
+                <div style="display: flex; justify-content: center;">
+                    <h2 id="types">Asset pack types</h2>
+                </div>
+                <p>
+                    This module provides multiple types of asset packs. The structure and name of each is written below.
+                </p>
+                <div style="display: flex; justify-content: center;">
+                    <h3>Basic asset pack</h3>
+                </div>
+                <p>
+                    Regular asset packs are the simplest: the file's contents are in the form of a header (<i>!PACKED</i>),
+                    
                 </p>
             </div>
         </div>

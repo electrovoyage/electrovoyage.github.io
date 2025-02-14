@@ -42,7 +42,11 @@
     font-family: 'lexend';
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'lexend';
     font-weight: bold;
+}
+
+.mtext {
+    margin-left: 60px;
 }
