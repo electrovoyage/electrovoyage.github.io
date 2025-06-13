@@ -11,7 +11,7 @@ function onloaded() {
     const script_status_label = document.querySelector('.script-status')
     const script_date_label = document.querySelector('.script-date')
 
-    console.log(date.getFullYear(), date.getMonth())
+    //console.log(date.getFullYear(), date.getMonth())
 
     year = date.getFullYear()
 
@@ -29,7 +29,7 @@ function onloaded() {
     
     msnow = Date.now()
 
-    for (time = msnow; time <= msnow + 366 * MILLISECONDS_IN_A_DAY; time += MILLISECONDS_IN_A_DAY) {
+    for (time = msnow + MILLISECONDS_IN_A_DAY; time <= msnow + 366 * MILLISECONDS_IN_A_DAY; time += MILLISECONDS_IN_A_DAY) {
         dt = new Date(time)
 
         month = dt.getMonth()
@@ -69,7 +69,7 @@ MONTHS = [
 
 function postfix(day) {
     lastdigit = day % 10
-    if (day < 20|| lastdigit > 3) {
+    if (day < 20 || lastdigit > 3) {
         return 'th'
     } else {
         return ['st', 'nd', 'rd'][lastdigit - 1]
