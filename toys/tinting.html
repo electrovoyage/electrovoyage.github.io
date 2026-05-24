@@ -11,6 +11,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"-->
+        <meta name="description" content="Calculate tint colors to match Source Engine props to other objects easily!">
         <link rel="icon" type="image/x-icon" href="https://electrovoyage.github.io/cdn/icons/favicon.ico">
 
         <script src="./tinting/script.js"></script>
@@ -24,7 +25,14 @@
 
         <p>Color of the tintable part of the model: <input class="tintable_color" type="text"></input></p>
         <p>Desired color: <input class="target_color" type="text"></input></p>
+        <label for="normalize-box">Normalization:</label>
+        <select id="normalize-box" class="normalize-box">
+            <option value="color255">color255 (no component may exceed 255; usually best for props)</option>
+            <option value="color1">color1 (no component may exceed 1; fractional values)</option>
+            <option value="none">None (may look wrong on props)</option>
+        </select>
 
+        <br>
         <button class="calculate_btn">Calculate!</button>
         <p class="result_display"></p>
 
@@ -33,7 +41,7 @@
             <ol>
                 <li>Identify the colorable parts of your model (red here)<br><img src="tinting/tutorial1.png"></li>
                 <li>Sample the color of your prop's tintable area and get the target color (e.g., from a screenshot)<br><img src="tinting/tutorial2.png"></li>
-                <li>Type both into the fields above, click Calculate and copy the calculated value<br><img src="tinting/tutorial3.png"></li>
+                <li>Type/paste both into the fields above, click Calculate, enable normalization if necessary, and copy the calculated value<br><img src="tinting/tutorial3.png"></li>
                 <li>Paste this into your prop's tint color setting<br><img src="tinting/tutorial4.png"></li>
                 <li>The model now matches your target color!<br><img src="tinting/tutorial5.png"></li>
             </ol>
